@@ -23,7 +23,7 @@ class PrimeiraQuestao(APIView):
             diferenca = alvo - lista[i]
             if diferenca in mydict.keys():
                 return [i, mydict[diferenca]]
-        
+
         return [0, 0]
 
 class SegundaQuestao(APIView):
