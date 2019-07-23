@@ -15,13 +15,16 @@ class PrimeiraQuestao(APIView):
     
     #Estou considerando que dada a lista e o alvo, a pergunta tenha solução
     def retornaIndices(self, lista: list, alvo: int):
-        tamanho = len(lista)
-        for i in range(tamanho):
-            if(lista[i] <= alvo):
-                restante = alvo - lista[i]
-                for j in range(i,tamanho):
-                    if( lista[j] == restante):
-                        return [i,j]
+        mydict = {}
+        for i in list(range(len(lista))):
+            mydict.update({lista[i]: i})
+
+        for i in list(range(len(lista))):
+            diferenca = alvo - lista[i]
+            if diferenca in mydict.keys():
+                return [i, mydict[diferenca]]
+        
+        return [0, 0]
 
 class SegundaQuestao(APIView):
     def post(self, request, format=None):
