@@ -1,4 +1,4 @@
-def calcularVolumeDeChuva(self, minhaLista):
+def calcularVolumeDeChuva(minhaLista):
     maiorAltura = max(minhaLista)
     mapeamento = [0] * maiorAltura
     maiorAlturaAlcancada = 0

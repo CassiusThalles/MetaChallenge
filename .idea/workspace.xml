@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f672dfcb-98d7-4e10-a760-a20d6a07ef20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/questoes/views/primeiraQuestaoView.py" beforeDir="false" afterPath="$PROJECT_DIR$/questoes/views/primeiraQuestaoView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questoes/views/quartaQuestaoView.py" beforeDir="false" afterPath="$PROJECT_DIR$/questoes/views/quartaQuestaoView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questoes/views/segundaQuestaoView.py" beforeDir="false" afterPath="$PROJECT_DIR$/questoes/views/segundaQuestaoView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questoes/views/terceiraQuestaoView.py" beforeDir="false" afterPath="$PROJECT_DIR$/questoes/views/terceiraQuestaoView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questoes/views/funcoes/calcularVolumeDeChuva.py" beforeDir="false" afterPath="$PROJECT_DIR$/questoes/views/funcoes/calcularVolumeDeChuva.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,18 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/questoes/views/primeiraQuestaoView.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/questoes/views/quartaQuestaoView.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -39,26 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/questoes/views/segundaQuestaoView.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/questoes/views/funcoes/calcularVolumeDeChuva.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/questoes/views/terceiraQuestaoView.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -75,6 +45,7 @@
         <option value="$PROJECT_DIR$/questoes/views/quartaQuestaoView.py" />
         <option value="$PROJECT_DIR$/questoes/views/segundaQuestaoView.py" />
         <option value="$PROJECT_DIR$/questoes/views/terceiraQuestaoView.py" />
+        <option value="$PROJECT_DIR$/questoes/views/funcoes/calcularVolumeDeChuva.py" />
       </list>
     </option>
   </component>
@@ -122,6 +93,13 @@
               <item name="questoes" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Desafio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Desafio" type="462c0819:PsiDirectoryNode" />
+              <item name="questoes" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="funcoes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -129,6 +107,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -181,12 +160,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564085534540</updated>
-      <workItem from="1564085537490" duration="48000" />
+      <workItem from="1564085537490" duration="587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48000" />
+    <option name="totallyTimeSpent" value="587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1394" height="916" extended-state="6" />
@@ -219,10 +198,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/questoes/views/terceiraQuestaoView.py">
+    <entry file="file://$PROJECT_DIR$/questoes/views/primeiraQuestaoView.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="221">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
@@ -239,6 +218,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/questoes/views/terceiraQuestaoView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/questoes/views/quartaQuestaoView.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -249,13 +238,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/questoes/views/primeiraQuestaoView.py">
+    <entry file="file://$PROJECT_DIR$/questoes/views/funcoes/calcularVolumeDeChuva.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
