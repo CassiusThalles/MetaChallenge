@@ -4,7 +4,7 @@ from questoes.views.funcoes import calcularVolumeDeChuva
 
 class QuartaQuestao(APIView):
 
-    def post(self, request, format=None):
+    def post(self, request):
         requisicao = request.data
         volumeDeChuva = calcularVolumeDeChuva.calcularVolumeDeChuva(requisicao["lista"])
         resposta = {

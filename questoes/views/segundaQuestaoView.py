@@ -3,7 +3,7 @@ from rest_framework.views import APIView
 from questoes.views.funcoes import balanceada
 
 class SegundaQuestao(APIView):
-    def post(self, request, format=None):
+    def post(self, request):
         requisicao = request.data
         stringBalanceada = balanceada.balanceada(requisicao["sequencia"])
         resposta = {

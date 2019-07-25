@@ -4,7 +4,7 @@ from questoes.views.funcoes import retornaValorMaximo
 
 class TerceiraQuestao(APIView):
 
-    def post(self, request, format=None):
+    def post(self, request):
         requisicao = request.data
         lucroMaximo = retornaValorMaximo.retornaValorMaximo(requisicao["input"])
         resposta = {

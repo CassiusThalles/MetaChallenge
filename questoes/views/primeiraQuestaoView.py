@@ -3,7 +3,7 @@ from rest_framework.views import APIView
 from questoes.views.funcoes import retornaIndices
 
 class PrimeiraQuestao(APIView):
-    def post(self, request, format=None):
+    def post(self, request):
         requisicao = request.data
         indices = retornaIndices.retornaIndices(requisicao["lista"], requisicao["alvo"])
         resposta = {
