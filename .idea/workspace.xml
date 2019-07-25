@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f672dfcb-98d7-4e10-a760-a20d6a07ef20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desafio/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desafio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desafio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desafio/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questoes/views/funcoes/balanceada.py" beforeDir="false" afterPath="$PROJECT_DIR$/questoes/views/funcoes/verificaSeStringEBalanceada.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questoes/views/funcoes/calcularVolumeDeChuva.py" beforeDir="false" afterPath="$PROJECT_DIR$/questoes/views/funcoes/calcularVolumeDeChuva.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questoes/views/funcoes/retornaValorMaximo.py" beforeDir="false" afterPath="$PROJECT_DIR$/questoes/views/funcoes/retornaLucroMaximo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questoes/views/segundaQuestaoView.py" beforeDir="false" afterPath="$PROJECT_DIR$/questoes/views/segundaQuestaoView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questoes/views/terceiraQuestaoView.py" beforeDir="false" afterPath="$PROJECT_DIR$/questoes/views/terceiraQuestaoView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questoes/views/funcoes/retornaLucroMaximo.py" beforeDir="false" afterPath="$PROJECT_DIR$/questoes/views/funcoes/retornaLucroMaximo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/questoes/views/funcoes/contaVolumeDeChuva.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -65,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/questoes/views/funcoes/retornaLucroMaximo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="74" lean-forward="true" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+              <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -219,12 +209,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564085534540</updated>
-      <workItem from="1564085537490" duration="4517000" />
+      <workItem from="1564085537490" duration="4999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4517000" />
+    <option name="totallyTimeSpent" value="4999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1394" height="916" extended-state="6" />
@@ -311,13 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/questoes/views/funcoes/contaVolumeDeChuva.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/questoes/views/funcoes/calcularVolumeDeChuva.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -332,10 +315,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/questoes/views/funcoes/contaVolumeDeChuva.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/questoes/views/funcoes/retornaLucroMaximo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="74" lean-forward="true" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
         </state>
       </provider>
     </entry>
