@@ -65,12 +65,12 @@ Then, in order to install the requirements, run
 ```pip install -r requirements.txt```
 
 
-##Testing the api
+## Testing the api
 
 I use postman to send requests to my api.
 The api just receive POST requests in all 4 endpoints.
 
-###Question 01
+### Question 01
 
 The URL to this endpoint is 127.0.0.1:[PORT RUNNING]/questao01/
 
@@ -93,7 +93,7 @@ You'll receive a respose with this structure:
 }
 ```
 
-###Question 02
+### Question 02
 
 The URL to this endpoint is 127.0.0.1:[PORT RUNNING]/questao02/
 
@@ -113,7 +113,7 @@ You'll receive a respose with this structure:
     "output": [the response requested]
 }
 ```
-###Question 03
+### Question 03
 
 The URL to this endpoint is 127.0.0.1:[PORT RUNNING]/questao03/
 
@@ -134,7 +134,7 @@ You'll receive a respose with this structure:
 }
 ```
 
-###Question 04
+### Question 04
 
 The URL to this endpoint is 127.0.0.1:[PORT RUNNING]/questao01/
 
