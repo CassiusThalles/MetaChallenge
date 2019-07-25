@@ -53,10 +53,17 @@ You will see **Page not found (404)**. Below this title you'll see
 ### pipenv didn't work
 
 If pipenv didn't work you can use **pip** and **venv**.
+
 first create your virtual environment.
+
 run ```venv [name of the virtual environment]```
+
 After creating your venv, activate it.
-Then, in order to install the requirements, run ```pip install -r requirements.txt```
+
+Then, in order to install the requirements, run
+
+```pip install -r requirements.txt```
+
 
 ##Testing the api
 
